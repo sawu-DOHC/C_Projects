@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.27)
+project(CProjects)
+
+add_subdirectory("Replicating The Vector Class")
+add_subdirectory("School Registration Program")
+add_subdirectory("Shopping Cart Program")
+add_subdirectory("Algorithms Search")
+add_subdirectory("Algorithms Sort")
+add_subdirectory("Measuring Search Algorithm Speed")
+add_subdirectory("Measuring Sort Algorithm Speed")
