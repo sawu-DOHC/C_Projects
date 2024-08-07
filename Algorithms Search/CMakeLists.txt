@@ -8,5 +8,5 @@ include_directories("Header Files")
 add_executable(AlgorithmsSearch
         main.cpp
         "Source Files/SearchAlgorithms.cpp"
-        "../Measuring Sort Algorithm Speed/main.cpp"
+        "../Sort Algorithm Speed/main.cpp"
 )

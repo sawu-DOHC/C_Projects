@@ -279,13 +279,13 @@ MeasuringSearch&SortSpeed_IS_TOP_LEVEL:STATIC=OFF
 MeasuringSearch&SortSpeed_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/Measuring Search & Sort Speed
 
 //Value Computed by CMake
-MeasuringSearchAlgorithmSpeed_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Search Algorithm Speed
+MeasuringSearchAlgorithmSpeed_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Search Algorithm Speed
 
 //Value Computed by CMake
 MeasuringSearchAlgorithmSpeed_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-MeasuringSearchAlgorithmSpeed_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/Measuring Search Algorithm Speed
+MeasuringSearchAlgorithmSpeed_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/Search Algorithm Speed
 
 //Value Computed by CMake
 MeasuringSearchSortSpeed_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Search Algorithm Speed
@@ -297,13 +297,13 @@ MeasuringSearchSortSpeed_IS_TOP_LEVEL:STATIC=OFF
 MeasuringSearchSortSpeed_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/Measuring Search Algorithm Speed
 
 //Value Computed by CMake
-MeasuringSortAlgorithmSpeed_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Sort Algorithm Speed
+MeasuringSortAlgorithmSpeed_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Sort Algorithm Speed
 
 //Value Computed by CMake
 MeasuringSortAlgorithmSpeed_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-MeasuringSortAlgorithmSpeed_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/Measuring Sort Algorithm Speed
+MeasuringSortAlgorithmSpeed_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/Sort Algorithm Speed
 
 //Value Computed by CMake
 ReplicatingTheVectorClass_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Replicating the Vector Class

@@ -15,9 +15,9 @@ C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Algorithms Se
 C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Algorithms Sort/CMakeFiles/AlgorithmsSort.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Algorithms Sort/CMakeFiles/edit_cache.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Algorithms Sort/CMakeFiles/rebuild_cache.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Search Algorithm Speed/CMakeFiles/MeasuringSearchAlgorithmSpeed.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Search Algorithm Speed/CMakeFiles/edit_cache.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Search Algorithm Speed/CMakeFiles/rebuild_cache.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Sort Algorithm Speed/CMakeFiles/MeasuringSortAlgorithmSpeed.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Sort Algorithm Speed/CMakeFiles/edit_cache.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Sort Algorithm Speed/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Search Algorithm Speed/CMakeFiles/MeasuringSearchAlgorithmSpeed.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Search Algorithm Speed/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Search Algorithm Speed/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Sort Algorithm Speed/CMakeFiles/MeasuringSortAlgorithmSpeed.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Sort Algorithm Speed/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Sort Algorithm Speed/CMakeFiles/rebuild_cache.dir

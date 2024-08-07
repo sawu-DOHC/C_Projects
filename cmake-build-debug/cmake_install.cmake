@@ -64,12 +64,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Search Algorithm Speed/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Search Algorithm Speed/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Measuring Sort Algorithm Speed/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/Sort Algorithm Speed/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
