@@ -1,0 +1,26 @@
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 Replicating the Vector Class/CMakeFiles/ReplicatingTheVectorClass.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 Replicating the Vector Class/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 Replicating the Vector Class/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 School Registration Program/CMakeFiles/SchoolRegistrationProgram.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 School Registration Program/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 School Registration Program/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/4 Shopping Cart Program/CMakeFiles/ShoppingCartProgram.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/4 Shopping Cart Program/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/4 Shopping Cart Program/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithms/CMakeFiles/AlgorithmsSearch.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithms/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithms/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithms/CMakeFiles/AlgorithmsSort.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithms/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithms/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithm Speed/CMakeFiles/SearchAlgorithmSpeed.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithm Speed/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithm Speed/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithm Speed/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithm Speed/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/1 Data Types/CMakeFiles/DataTypes.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/1 Data Types/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/1 Data Types/CMakeFiles/rebuild_cache.dir
