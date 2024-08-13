@@ -1,77 +1,43 @@
-#include "Header Files/SortAlgorithms.h"
-#include <stack>
-#include <iostream>
+#include "../Header Files/SortAlgorithm.h"
 #include <chrono>
+#include <stack>
+#include <algorithm>  // For std::swap
 
-// Constructor to initialize member variables
-SortAlgorithm::SortAlgorithm(const std::string& name)
-        : algorithmName(name), iterations(0), swaps(0), executionTime(0), arrayAccesses(0) {
-    if (name == "Selection Sort") {
-        algorithmType = SELECTION_SORT;
+SortAlgorithm::SortAlgorithm(AlgorithmName newAlgorithmName)
+        : algorithmName(newAlgorithmName), iterations(0), swaps(0), executionTime(0), arrayAccesses(0) {}
+
+std::string SortAlgorithm::getAlgorithmNameAsString() const {
+    switch (algorithmName) {
+        case SELECTION_SORT: return "Selection Sort";
+        case BUBBLE_SORT: return "Bubble Sort";
+        case QUICKSORT: return "Quicksort";
+        case QUICKSORT_ITERATIVE: return "Iterative Quicksort";
+        case INSERTION_SORT: return "Insertion Sort";
+        case MERGE_SORT: return "Merge Sort";
+        default: return "Unknown";
     }
-    else if (name == "Bubble Sort") {
-        algorithmType = BUBBLE_SORT;
-    }
-    else if (name == "Quicksort") {
-        algorithmType = QUICKSORT;
-    }
-    else if (name == "Iterative Quicksort") {
-        algorithmType = QUICKSORT_ITERATIVE;
-    }
-    else if (name == "Insertion Sort") {
-        algorithmType = INSERTION_SORT;
-    }
-    else if (name == "Merge Sort") {
-        algorithmType = MERGE_SORT;
-    }
-    else {
-        algorithmType = UNKNOWN;
-    }
-}
-
-// Getter for iterations
-int SortAlgorithms::getIterations() const {
-    return iterations;
-}
-
-// Getter for swaps
-int SortAlgorithms::getSwaps() const {
-    return swaps;
-}
-
-// Getter for execution time
-long long SortAlgorithms::getExecutionTime() const {
-    return executionTime;
-}
-
-// Getter for algorithm name
-std::string SortAlgorithms::getAlgorithmName() const {
-    return algorithmName;
-}
-
-// Getter for array accesses
-int SortAlgorithms::getArrayAccesses() const {
-    return arrayAccesses;
-}
-
-// Getter for algorithm type
-SortAlgorithms::AlgorithmType SortAlgorithms::getAlgorithmType() const {
-    return algorithmType;
-}
-
-// Reset statistics
-void SortAlgorithms::resetStatistics() {
-    iterations = 0;
-    swaps = 0;
-    executionTime = 0;
-    arrayAccesses = 0;
 }
 
 // Selection Sort
-void SortAlgorithms::selectionSort(int* array, int size) {
-    setAlgorithmName("Selection Sort");
-    resetStatistics();
+void SortAlgorithm::selectionSort(int* array, int size) {
+    // Timing run
     auto start = std::chrono::high_resolution_clock::now();
+
+    for (int step = 0; step < size - 1; ++step) {
+        int minIndex = step;
+        for (int i = step + 1; i < size; ++i) {
+            if (array[i] < array[minIndex]) {
+                minIndex = i;
+            }
+        }
+        std::swap(array[minIndex], array[step]);
+    }
+
+    auto end = std::chrono::high_resolution_clock::now();
+
+    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+
+    // Stats run
     for (int step = 0; step < size - 1; ++step) {
         int minIndex = step;
         for (int i = step + 1; i < size; ++i) {
@@ -83,50 +49,91 @@ void SortAlgorithms::selectionSort(int* array, int size) {
         }
         std::swap(array[minIndex], array[step]);
         swaps++;
+        arrayAccesses += 2;
     }
+}
+
+// Bubble Sort
+void SortAlgorithm::bubbleSort(int* array, int size) {
+    // Timing run
+    auto start = std::chrono::high_resolution_clock::now();
+
+    for (int step = 0; step < size - 1; ++step) {
+        for (int i = 0; i < size - step - 1; ++i) {
+            if (array[i] > array[i + 1]) {
+                std::swap(array[i], array[i + 1]);
+            }
+        }
+    }
+
     auto end = std::chrono::high_resolution_clock::now();
+
     executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+
+    // Stats run
+    for (int step = 0; step < size - 1; ++step) {
+        for (int i = 0; i < size - step - 1; ++i) {
+            iterations++;
+            arrayAccesses += 2;
+            if (array[i] > array[i + 1]) {
+                std::swap(array[i], array[i + 1]);
+                swaps++;
+                arrayAccesses += 2;
+            }
+        }
+    }
 }
 
 // Recursive Quicksort
-void SortAlgorithms::quicksort(int* array, int low, int high) {
+void SortAlgorithm::quicksort(int* array, int low, int high) {
+    // Timing run
+    auto start = std::chrono::high_resolution_clock::now();
     if (low < high) {
-        int pivotIndex = partition(array, low, high);
+        int pivotIndex = partition(array, low, high, false);
+        quicksort(array, low, pivotIndex - 1);
+        quicksort(array, pivotIndex + 1, high);
+    }
+    auto end = std::chrono::high_resolution_clock::now();
+    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+
+    // Stats run
+    if (low < high) {
+        int pivotIndex = partition(array, low, high, true);
         quicksort(array, low, pivotIndex - 1);
         quicksort(array, pivotIndex + 1, high);
     }
 }
 
 // Iterative Quicksort
-void SortAlgorithms::quicksortIterative(int* array, int low, int high) {
-    std::stack<int> stack;
-    stack.push(low);
-    stack.push(high);
+void SortAlgorithm::quicksortIterative(int* array, int low, int high) {
+    // Timing run
+    auto start = std::chrono::high_resolution_clock::now();
 
-    while (!stack.empty()) {
-        high = stack.top(); stack.pop();
-        low = stack.top(); stack.pop();
+    auto end = std::chrono::high_resolution_clock::now();
 
-        if (low < high) {
-            int pivotIndex = partition(array, low, high);
+    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
 
-            if (pivotIndex - 1 > low) {
-                stack.push(low);
-                stack.push(pivotIndex - 1);
-            }
-            if (pivotIndex + 1 < high) {
-                stack.push(pivotIndex + 1);
-                stack.push(high);
-            }
-        }
-    }
+    // Stats run
+
 }
 
 // Insertion Sort
-void SortAlgorithms::insertionSort(int* array, int low, int high) {
-    setAlgorithmName("Insertion Sort");
-    resetStatistics();
+void SortAlgorithm::insertionSort(int* array, int low, int high) {
+    // Timing run
     auto start = std::chrono::high_resolution_clock::now();
+    for (int i = low + 1; i <= high; ++i) {
+        int key = array[i];
+        int j = i - 1;
+        while (j >= low && array[j] > key) {
+            array[j + 1] = array[j];
+            j--;
+        }
+        array[j + 1] = key;
+    }
+    auto end = std::chrono::high_resolution_clock::now();
+    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+
+    // Stats run
     for (int i = low + 1; i <= high; ++i) {
         int key = array[i];
         int j = i - 1;
@@ -139,62 +146,58 @@ void SortAlgorithms::insertionSort(int* array, int low, int high) {
         array[j + 1] = key;
         arrayAccesses++;
     }
-    auto end = std::chrono::high_resolution_clock::now();
-    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
 }
 
-// Bubble Sort
-void SortAlgorithms::bubbleSort(int* array, int size) {
-    setAlgorithmName("Bubble Sort");
-    resetStatistics();
+// Merge Sort
+void SortAlgorithm::mergeSort(int* array, int low, int high) {
+    // Timing run
     auto start = std::chrono::high_resolution_clock::now();
-    for (int step = 0; step < size - 1; ++step) {
-        for (int i = 0; i < size - step - 1; ++i) {
+    if (low < high) {
+        int mid = low + (high - low) / 2;
+        mergeSort(array, low, mid);
+        mergeSort(array, mid + 1, high);
+        merge(array, low, mid, high, false);
+    }
+
+    auto end = std::chrono::high_resolution_clock::now();
+    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+
+    // Stats run
+    if (low < high) {
+        int mid = low + (high - low) / 2;
+        mergeSort(array, low, mid);
+        mergeSort(array, mid + 1, high);
+        merge(array, low, mid, high, true);
+    }
+}
+#include "../Header Files/SortAlgorithm.h"
+
+int SortAlgorithm::partition(int* array, int low, int high, bool collectStats) {
+    int pivot = array[high];
+    int i = low - 1;
+    for (int j = low; j < high; ++j) {
+        if (collectStats) {
             iterations++;
             arrayAccesses += 2;
-            if (array[i] > array[i + 1]) {
-                std::swap(array[i], array[i + 1]);
+        }
+        if (array[j] <= pivot) {
+            i++;
+            std::swap(array[i], array[j]);
+            if (collectStats) {
                 swaps++;
                 arrayAccesses += 2;
             }
         }
     }
-    auto end = std::chrono::high_resolution_clock::now();
-    executionTime = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
-}
-
-// Merge Sort
-void SortAlgorithms::mergeSort(int* array, int low, int high) {
-    if (low < high) {
-        int mid = low + (high - low) / 2;
-        mergeSort(array, low, mid);
-        mergeSort(array, mid + 1, high);
-        merge(array, low, mid, high);
-    }
-}
-
-// Partition function for Quicksort
-int SortAlgorithms::partition(int* array, int low, int high) {
-    int pivot = array[high];
-    int i = low - 1;
-    for (int j = low; j < high; ++j) {
-        iterations++;
-        arrayAccesses += 2;
-        if (array[j] <= pivot) {
-            i++;
-            std::swap(array[i], array[j]);
-            swaps++;
-            arrayAccesses += 2;
-        }
-    }
     std::swap(array[i + 1], array[high]);
-    swaps++;
-    arrayAccesses += 2;
+    if (collectStats) {
+        swaps++;
+        arrayAccesses += 2;
+    }
     return i + 1;
 }
 
-// Merge function for Merge Sort
-void SortAlgorithms::merge(int* array, int low, int mid, int high) {
+void SortAlgorithm::merge(int* array, int low, int mid, int high, bool collectStats) {
     int n1 = mid - low + 1;
     int n2 = high - mid;
     int* left = new int[n1];
@@ -207,6 +210,9 @@ void SortAlgorithms::merge(int* array, int low, int mid, int high) {
     while (i < n1 && j < n2) {
         if (left[i] <= right[j]) array[k++] = left[i++];
         else array[k++] = right[j++];
+        if (collectStats) {
+            arrayAccesses += 2;
+        }
     }
     while (i < n1) array[k++] = left[i++];
     while (j < n2) array[k++] = right[j++];
@@ -215,9 +221,3 @@ void SortAlgorithms::merge(int* array, int low, int mid, int high) {
     delete[] right;
 }
 
-// Swap function
-void SortAlgorithms::swap(int& a, int& b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}

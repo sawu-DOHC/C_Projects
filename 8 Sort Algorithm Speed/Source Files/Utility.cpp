@@ -1,5 +1,4 @@
 #include "../Header Files/Utility.h"
-#include "../Header Files/SortAlgorithm.h"
 #include <fstream>
 #include <sstream>
 #include <vector>
@@ -10,17 +9,10 @@ using namespace std;
 using namespace std::chrono;
 
 // Function to load data from a file
-int* loadData(const std::string& filePath, int& arraySize) {
+int* loadData(const std::string& filePath) {
     ifstream inputFileStream(filePath);
     string line;
     vector<int> data;
-
-    // Check if the file is open
-    if (!inputFileStream.is_open()) {
-        cerr << "Unable to open file " << filePath << endl;
-        arraySize = 0;
-        return nullptr;
-    }
 
     // Read lines from the file and parse
     while (getline(inputFileStream, line)) {
@@ -30,12 +22,12 @@ int* loadData(const std::string& filePath, int& arraySize) {
             data.push_back(number);
         }
     }
-
     inputFileStream.close();
 
     // Allocate the array dynamically on the heap
-    arraySize = data.size();
+    int arraySize = data.size();
     int* array = new int[arraySize];
+
     for (size_t i = 0; i < arraySize; ++i) {
         array[i] = data[i];
     }
@@ -43,31 +35,55 @@ int* loadData(const std::string& filePath, int& arraySize) {
     return array;
 }
 
-// Function to measure the performance of sorting algorithms
-void measureSortPerformance(SortAlgorithm& sortAlgorithm, int* array, int arraySize) {
+
+void measurePerformance( SortAlgorithm& sortAlgorithm, int* array, int arraySize ) {
+
     int* arrayCopy = new int[arraySize];
+
     std::copy(array, array + arraySize, arrayCopy);
 
-    auto start = high_resolution_clock::now();
+    auto start = std::chrono::high_resolution_clock::now();
 
-    const std::string& algorithmName = sortAlgorithm.getAlgorithmName();
-    if (algorithmName == "Selection Sort") {
-        sortAlgorithm.selectionSort(arrayCopy, arraySize);
-    } else if (algorithmName == "Bubble Sort") {
-        sortAlgorithm.bubbleSort(arrayCopy, arraySize);
-    } else if (algorithmName == "Quicksort") {
-        sortAlgorithm.quicksort(arrayCopy, 0, arraySize - 1);
-    } else if (algorithmName == "Iterative Quicksort") {
-        sortAlgorithm.quicksortIterative(arrayCopy, 0, arraySize - 1);
-    } else if (algorithmName == "Insertion Sort") {
-        sortAlgorithm.insertionSort(arrayCopy, 0, arraySize - 1);
-    } else if (algorithmName == "Merge Sort") {
-        sortAlgorithm.mergeSort(arrayCopy, 0, arraySize - 1);
+    // Get the enum value directly
+    SortAlgorithm::AlgorithmName algorithmName = algorithmName;
+
+    // Use a switch statement to select the algorithm
+    switch ( algorithmName ) {
+
+        case SortAlgorithm::SELECTION_SORT:
+            sortAlgorithm.selectionSort(arrayCopy, arraySize);
+            break;
+
+        case SortAlgorithm::BUBBLE_SORT:
+            sortAlgorithm.bubbleSort(arrayCopy, arraySize);
+            break;
+
+        case SortAlgorithm::QUICKSORT:
+            sortAlgorithm.quicksort(arrayCopy, 0, arraySize - 1);
+            break;
+
+        case SortAlgorithm::QUICKSORT_ITERATIVE:
+            sortAlgorithm.quicksortIterative(arrayCopy, 0, arraySize - 1);
+            break;
+
+        case SortAlgorithm::INSERTION_SORT:
+            sortAlgorithm.insertionSort(arrayCopy, 0, arraySize - 1);
+            break;
+
+        case SortAlgorithm::MERGE_SORT:
+            sortAlgorithm.mergeSort(arrayCopy, 0, arraySize - 1);
+            break;
+
     }
 
-    auto end = high_resolution_clock::now();
-    auto duration = duration_cast<microseconds>(end - start);
-    cout << sortAlgorithm.getAlgorithmName() << " duration: " << duration.count() << " microseconds" << endl;
-
     delete[] arrayCopy;
+}
+
+void printData(const SortAlgorithm& sortAlgorithm) {
+    std::cout << "Algorithm: " << sortAlgorithm.getAlgorithmNameAsString() << std::endl;
+    std::cout << "Execution Time: " << sortAlgorithm.executionTime << " microseconds" << std::endl;
+    std::cout << "Iterations: " << sortAlgorithm.iterations << std::endl;
+    std::cout << "Swaps: " << sortAlgorithm.swaps << std::endl;
+    std::cout << "Array Accesses: " << sortAlgorithm.arrayAccesses << std::endl;
+    std::cout << "-------------------------------" << std::endl;
 }
