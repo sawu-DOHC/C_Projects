@@ -1,0 +1,12 @@
+# ninja log v6
+2	658	7452295783038855	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/main.cpp.obj	6fbd92c9a19a8bfd
+8	725	7452298074106477	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/SortAlgorithm.cpp.obj	ea0df87bf3b35033
+2	673	7452298350891995	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/Utility.cpp.obj	869adcd0b70b8a01
+7	692	7452299570345967	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/Utility.cpp.obj	869adcd0b70b8a01
+693	755	7452299577201639	8 Sort Algorithm Speed/SortAlgorithmSpeed.exe	530c8498a6551e0d
+7	680	7452358313364366	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/main.cpp.obj	6fbd92c9a19a8bfd
+9	720	7452358313395139	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/SortAlgorithm.cpp.obj	ea0df87bf3b35033
+11	731	7452358313415176	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/Utility.cpp.obj	869adcd0b70b8a01
+6	691	7452358852035753	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/SortAlgorithm.cpp.obj	ea0df87bf3b35033
+9	692	7452358852065757	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/Utility.cpp.obj	869adcd0b70b8a01
+692	750	7452358858899491	8 Sort Algorithm Speed/SortAlgorithmSpeed.exe	530c8498a6551e0d
