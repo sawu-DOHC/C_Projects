@@ -16,10 +16,10 @@ int main() {
     SortAlgorithm mergeSortAlgorithm(SortAlgorithm::MERGE_SORT);
 
     // Load datasets
-    int* sortedData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data/Sorted.txt");
-    int* reverseSortedData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data/Reverse Sorted.txt");
-    int* randomUniqueData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data/Random Unique.txt");
-    int* nearlySortedData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data/Nearly Sorted.txt");
+    int* sortedData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data 1/Sorted.txt");
+    int* reverseSortedData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data 1/Reverse Sorted.txt");
+    int* randomUniqueData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data 1/Random Unique.txt");
+    int* nearlySortedData = loadData("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Sort Algorithm Speed/Test Data 1/Nearly Sorted.txt");
 
     // Measure performance and print data for each algorithm and dataset
     measurePerformance(selectionSortAlgorithm, sortedData, 1000000);
