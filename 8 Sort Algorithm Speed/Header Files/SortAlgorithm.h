@@ -2,46 +2,36 @@
 #define SORT_ALGORITHM_H
 
 #include <string>
+#include <vector>
+#include <iostream>
 
 class SortAlgorithm {
 
 public:
-    // Enum for the algorithm names
-    enum AlgorithmName {
-        SELECTION_SORT,
-        BUBBLE_SORT,
-        QUICKSORT,
-        QUICKSORT_ITERATIVE,
-        INSERTION_SORT,
-        MERGE_SORT
-    };
+    // Public member variables for algorithm name and statistics
+    std::string algorithmName;
+    int iterations = 0;
+    int swaps = 0;
+    long long executionTime = 0;
+    int arrayAccesses = 0;
 
-    // Public member variables for statistics
-    AlgorithmName algorithmName;
-    int iterations;
-    int swaps;
-    long long executionTime;
-    int arrayAccesses;
+    // Constructor
+    SortAlgorithm(const std::string& name);
 
-    // Constructor to initialize member variables with the algorithm name
-    SortAlgorithm(AlgorithmName newAlgorithmName);
+    // Virtual destructor for proper cleanup of derived classes
+    virtual ~SortAlgorithm();
 
-    // Method to get the algorithm name as a string
-    std::string getAlgorithmNameAsString() const;
+    // Pure virtual method that derived classes must implement
+    virtual void sort(const std::vector<int>& data) = 0;
 
-    // Sorting algorithms
-    void selectionSort(int* array, int size);
-    void quicksort(int* array, int low, int high);
-    void quicksortIterative(int* array, int low, int high);
-    void insertionSort(int* array, int low, int high);
-    void bubbleSort(int* array, int size);
-    void mergeSort(int* array, int low, int high);
+    // Method to reset statistics
+    void resetStats();
 
+    // Method to print the statistics to the console
+    void printData() const;
 
-private:
-    // Partition and merge methods with optional statistics collection
-    int partition(int* array, int low, int high, bool collectStats);
-    void merge(int* array, int low, int mid, int high, bool collectStats);
+    // Method to get all statistics as a vector of strings
+    std::vector<std::string> getStatistics(const std::string& datasetName) const;
 };
 
 #endif // SORT_ALGORITHM_H

@@ -107,8 +107,13 @@
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/uses_allocator_args.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tuple \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_util.h \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/exception_ptr.h \
@@ -149,21 +154,16 @@
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets.tcc \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/basic_ios.tcc \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream.tcc \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/istream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/istream.tcc \
+ D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/fstream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/codecvt.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/fstream.tcc \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/sstream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/sstream.tcc \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/vector \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_uninitialized.h \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_vector.h \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/vector.tcc \
- D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/chrono \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \

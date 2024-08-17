@@ -3,9 +3,8 @@
 
 #include "SortAlgorithm.h"
 #include <string>
+#include <vector>
 
-int* loadData(const std::string& filePath);
-void measurePerformance(SortAlgorithm& sortAlgorithm, int* array, int arraySize);
-void printData(const SortAlgorithm& sortAlgorithm);
+std::vector<int> loadData(const std::string& filePath);
 
 #endif // UTILITY_H
