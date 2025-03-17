@@ -55,13 +55,14 @@ int main() {
     }
 
     // Print the statistics table header
-    cout << left << setw(20) << "Algorithm"
+    cout << left
+         << setw(20) << "Algorithm"
          << setw(20) << "Dataset"
          << setw(15) << "Time (μs)"
          << setw(15) << "Iterations"
          << setw(15) << "Swaps"
-         << setw(20) << "Array Accesses" << endl;
-
+         << setw(20) << "Array Accesses"
+         << endl;
 
     cout << "---------------------------------------------------------------------------------------------------------" << endl;
 

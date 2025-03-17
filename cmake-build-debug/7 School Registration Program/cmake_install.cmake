@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/7 School Registration Program
+# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/7 School Registration Program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

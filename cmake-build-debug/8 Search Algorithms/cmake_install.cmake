@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/8 Search Algorithms
+# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/8 Search Algorithms
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

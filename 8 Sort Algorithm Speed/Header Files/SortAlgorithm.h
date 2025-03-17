@@ -10,10 +10,10 @@ class SortAlgorithm {
 public:
     // Public member variables for algorithm name and statistics
     std::string algorithmName;
-    int iterations = 0;
-    int swaps = 0;
-    long long executionTime = 0;
-    int arrayAccesses = 0;
+    unsigned long long iterations = 0;
+    unsigned long long swaps = 0;
+    unsigned long long executionTime = 0;
+    unsigned long long arrayAccesses = 0;
 
     // Constructor
     SortAlgorithm(const std::string& name);

@@ -8,7 +8,7 @@ int main(){
     Dynamic_Int_Array_Class myArray;
 
     cout << "Adding elements" << endl;
-    for (int i = 0; i < 8; i++) { // Add more elements than the initial capacity to test resizing
+    for ( int i = 0; i < 8; i++ ) {
         myArray.push_back(i*3);
         cout << "Added " << i*3 << endl;
     }
@@ -16,7 +16,7 @@ int main(){
     cout << endl;
 
     cout << "Array elements after additions (tested using custom '[]' operator)" << endl;
-    for (int i = 0; i < myArray.size(); i++) {
+    for ( int i = 0; i < myArray.size(); i++ ) {
         cout << "Element at index " << i << ": " << myArray[i] << endl;
     }
     cout << "Current array capacity after additions: " << myArray.capacity() << endl << endl;

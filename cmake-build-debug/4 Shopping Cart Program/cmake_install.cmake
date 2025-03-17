@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/4 Shopping Cart Program
+# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/4 Shopping Cart Program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

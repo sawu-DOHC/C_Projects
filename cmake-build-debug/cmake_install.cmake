@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects
+# Install script for directory: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,42 +39,52 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 Replicating the Vector Class/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/1 Data Types/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/7 School Registration Program/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/3 Functions/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/4 Shopping Cart Program/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Replicating the Vector Class/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithms/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 School Registration Program/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithms/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/4 Shopping Cart Program/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Search Algorithm Speed/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Encryption/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/8 Sort Algorithm Speed/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithms/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/1 Data Types/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithms/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithm Speed/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithm Speed/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -85,5 +95,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Sam/OneDrive/Desktop Cloud/C++ Projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

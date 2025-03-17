@@ -9,10 +9,12 @@ SortAlgorithm::~SortAlgorithm() {}
 
 // Method to reset statistics
 void SortAlgorithm::resetStats() {
-    iterations = 0;
-    swaps = 0;
-    executionTime = 0;
-    arrayAccesses = 0;
+
+    unsigned long long iterations = 0;
+    unsigned long long swaps = 0;
+    unsigned long long arrayAccesses = 0;
+    unsigned long long executionTime = 0;
+
 }
 
 // Method to print the statistics to the console

@@ -1,5 +1,5 @@
 8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/main.cpp.obj: \
- C:/Users/Sam/OneDrive/Desktop\ Cloud/C++\ Projects/8\ Sort\ Algorithm\ Speed/main.cpp \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/main.cpp \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -196,6 +196,10 @@
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/span \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/variant \
  D:/IntelliJ/CLion\ 2023.2.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ranges_algobase.h \
- C:/Users/Sam/OneDrive/Desktop\ Cloud/C++\ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/SortAlgorithm.h \
- C:/Users/Sam/OneDrive/Desktop\ Cloud/C++\ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/Utility.h \
- C:/Users/Sam/OneDrive/Desktop\ Cloud/C++\ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/SortAlgorithm.h
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/SortAlgorithm.h \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/BubbleSortAlgorithm.h \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/SortAlgorithm.h \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/InsertionSortAlgorithm.h \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/QuickSortAlgorithm.h \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/SelectionSortAlgorithm.h \
+ C:/Users/Sam/OneDrive/Desktop\ Cloud/C\ \ \ Projects/8\ Sort\ Algorithm\ Speed/Header\ Files/Utility.h
