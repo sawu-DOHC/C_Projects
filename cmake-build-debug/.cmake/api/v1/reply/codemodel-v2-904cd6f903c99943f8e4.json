@@ -1,0 +1,439 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1 Data Types",
+					"jsonFile" : "directory-1 Data Types-Debug-69ee57d348f24e0dd6ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "1 Data Types",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "3 Functions",
+					"jsonFile" : "directory-3 Functions-Debug-2037c86b0b3f13024c7c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "3 Functions",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "4 Shopping Cart Program",
+					"jsonFile" : "directory-4 Shopping Cart Program-Debug-48b5beb85ea9eaabd07b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "4 Shopping Cart Program",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "7 Replicating the Vector Class",
+					"jsonFile" : "directory-7 Replicating the Vector Class-Debug-78a64dbdbf1d89652db4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "7 Replicating the Vector Class",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "7 School Registration Program",
+					"jsonFile" : "directory-7 School Registration Program-Debug-20f047eeeecea60d2d58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "7 School Registration Program",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "7 Object Oriented Programming",
+					"jsonFile" : "directory-7 Object Oriented Programming-Debug-29adaec0042cb2efdaaa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "7 Object Oriented Programming",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "8 Encryption",
+					"jsonFile" : "directory-8 Encryption-Debug-b814b57e51f2d21839c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "8 Encryption",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "8 Search Algorithms",
+					"jsonFile" : "directory-8 Search Algorithms-Debug-8eee917280286a31f417.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "8 Search Algorithms",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "8 Sort Algorithms",
+					"jsonFile" : "directory-8 Sort Algorithms-Debug-d7ca34972ab81f58b2ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "8 Sort Algorithms",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "8 Search Algorithm Speed",
+					"jsonFile" : "directory-8 Search Algorithm Speed-Debug-e0dd93bf93509eea87cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "8 Search Algorithm Speed",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "8 Sort Algorithm Speed",
+					"jsonFile" : "directory-8 Sort Algorithm Speed-Debug-0dae0c2a51766c71c201.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "8 Sort Algorithm Speed",
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						7
+					],
+					"name" : "CProjects",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "DataTypes",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "Functions",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ShoppingCartProgram",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "ReplicatingTheVectorClass",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "SchoolRegistrationProgram",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "ObjectOrientedProgramming",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "AlgorithmsSearch",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "AlgorithmsSort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "SearchAlgorithmSpeed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "SortAlgorithmSpeed",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "AlgorithmsSearch::@5d480b5df3294b01573e",
+					"jsonFile" : "target-AlgorithmsSearch-Debug-3e262c238c9f930e1277.json",
+					"name" : "AlgorithmsSearch",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "AlgorithmsSort::@53cba5c69ae3fd093cf5",
+					"jsonFile" : "target-AlgorithmsSort-Debug-9b3d9805db0db5ad9877.json",
+					"name" : "AlgorithmsSort",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "DataTypes::@4bfcde02768254226ca3",
+					"jsonFile" : "target-DataTypes-Debug-d418cbdad48a61e1ed4f.json",
+					"name" : "DataTypes",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "Encryption::@52d5855bbb2ecbd75daf",
+					"jsonFile" : "target-Encryption-Debug-da1ae2f92bb6713e2b2d.json",
+					"name" : "Encryption",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Functions::@59fd4874e8dd43d5c3aa",
+					"jsonFile" : "target-Functions-Debug-06cbcb9af76925eee088.json",
+					"name" : "Functions",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ObjectOrientedProgramming::@9bd835b605e797bae334",
+					"jsonFile" : "target-ObjectOrientedProgramming-Debug-e68b8fb5af022f89793b.json",
+					"name" : "ObjectOrientedProgramming",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ReplicatingTheVectorClass::@8848e9d9d61099f14ac4",
+					"jsonFile" : "target-ReplicatingTheVectorClass-Debug-9e6b424b735fe6c3582f.json",
+					"name" : "ReplicatingTheVectorClass",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "SchoolRegistrationProgram::@040181475b588f66f905",
+					"jsonFile" : "target-SchoolRegistrationProgram-Debug-491ba7d6e8194fc990c8.json",
+					"name" : "SchoolRegistrationProgram",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "SearchAlgorithmSpeed::@cb46e58f083a9c34f99e",
+					"jsonFile" : "target-SearchAlgorithmSpeed-Debug-f2e88ab0ef3de8817c25.json",
+					"name" : "SearchAlgorithmSpeed",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ShoppingCartProgram::@7d9d1fb15c6eb8391806",
+					"jsonFile" : "target-ShoppingCartProgram-Debug-7e94f771909ef0266140.json",
+					"name" : "ShoppingCartProgram",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "SortAlgorithmSpeed::@bbf7fd75eddd59cbeb13",
+					"jsonFile" : "target-SortAlgorithmSpeed-Debug-1010c07ac580c26856ae.json",
+					"name" : "SortAlgorithmSpeed",
+					"projectIndex" : 10
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug",
+		"source" : "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
