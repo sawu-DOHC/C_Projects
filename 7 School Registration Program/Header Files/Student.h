@@ -40,12 +40,12 @@ public:
     const set <Course*>& getCourseSet() const;
 
     // Mutator methods (setters)
-    void setFirstName(const string& newFirstName);
-    void setLastName(const string& newLastName);
-    void setStudentID(const string& newStudentID);
-    void setAttemptedHours(const int& newAttemptedHours);
-    void setRegisteredHours(const int& newRegisteredHours);
-    void setCourseSet(const set <Course*>& newCourseSet);
+    void setFirstName( const string& newFirstName);
+    void setLastName( const string& newLastName);
+    void setStudentID( const string& newStudentID);
+    void setAttemptedHours( const int& newAttemptedHours);
+    void setRegisteredHours( const int& newRegisteredHours);
+    void setCourseSet( const set <Course*>& newCourseSet);
 
     // Comparison operators
     bool operator < (const Student& other) const;

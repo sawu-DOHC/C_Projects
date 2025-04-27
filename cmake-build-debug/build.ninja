@@ -200,6 +200,85 @@ build 3$ Functions/rebuild_cache: phony 3$ Functions/CMakeFiles/rebuild_cache.ut
 # =============================================================================
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ShoppingCartProgram
+
+
+#############################################
+# Order-only phony target for ShoppingCartProgram
+
+build cmake_object_order_depends_target_ShoppingCartProgram: phony || 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir
+
+build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/main.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/main.cpp || cmake_object_order_depends_target_ShoppingCartProgram
+  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\main.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+
+build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Item.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/Source$ Files/Item.cpp || cmake_object_order_depends_target_ShoppingCartProgram
+  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files\Item.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files"
+
+build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/ShoppingCart.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/Source$ Files/ShoppingCart.cpp || cmake_object_order_depends_target_ShoppingCartProgram
+  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files\ShoppingCart.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files"
+
+build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Utility.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/Source$ Files/Utility.cpp || cmake_object_order_depends_target_ShoppingCartProgram
+  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files\Utility.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ShoppingCartProgram
+
+
+#############################################
+# Link the executable 4 Shopping Cart Program\ShoppingCartProgram.exe
+
+build 4$ Shopping$ Cart$ Program/ShoppingCartProgram.exe: CXX_EXECUTABLE_LINKER__ShoppingCartProgram_Debug 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/main.cpp.obj 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Item.cpp.obj 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/ShoppingCart.cpp.obj 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Utility.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = "4 Shopping Cart Program\ShoppingCartProgram.exe"
+  TARGET_IMPLIB = "4 Shopping Cart Program\libShoppingCartProgram.dll.a"
+  TARGET_PDB = ShoppingCartProgram.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 4$ Shopping$ Cart$ Program/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\4 Shopping Cart Program" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 4$ Shopping$ Cart$ Program/edit_cache: phony 4$ Shopping$ Cart$ Program/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 4$ Shopping$ Cart$ Program/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\4 Shopping Cart Program" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects" -B"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 4$ Shopping$ Cart$ Program/rebuild_cache: phony 4$ Shopping$ Cart$ Program/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ReplicatingTheVectorClass
 
 
@@ -352,78 +431,66 @@ build 7$ School$ Registration$ Program/rebuild_cache: phony 7$ School$ Registrat
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ShoppingCartProgram
+# Object build statements for EXECUTABLE target ObjectOrientedProgramming
 
 
 #############################################
-# Order-only phony target for ShoppingCartProgram
+# Order-only phony target for ObjectOrientedProgramming
 
-build cmake_object_order_depends_target_ShoppingCartProgram: phony || 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir
+build cmake_object_order_depends_target_ObjectOrientedProgramming: phony || 7$ Object$ Oriented$ Programming/CMakeFiles/ObjectOrientedProgramming.dir
 
-build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/main.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/main.cpp || cmake_object_order_depends_target_ShoppingCartProgram
-  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\main.cpp.obj.d"
+build 7$ Object$ Oriented$ Programming/CMakeFiles/ObjectOrientedProgramming.dir/main.cpp.obj: CXX_COMPILER__ObjectOrientedProgramming_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/main.cpp || cmake_object_order_depends_target_ObjectOrientedProgramming
+  DEP_FILE = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir\main.cpp.obj.d"
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
-  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  OBJECT_DIR = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir"
+  OBJECT_FILE_DIR = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir"
 
-build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Item.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/Source$ Files/Item.cpp || cmake_object_order_depends_target_ShoppingCartProgram
-  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files\Item.cpp.obj.d"
+build 7$ Object$ Oriented$ Programming/CMakeFiles/ObjectOrientedProgramming.dir/Source_Files/Site.cpp.obj: CXX_COMPILER__ObjectOrientedProgramming_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/Source$ Files/Site.cpp || cmake_object_order_depends_target_ObjectOrientedProgramming
+  DEP_FILE = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir\Source_Files\Site.cpp.obj.d"
   FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
-  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files"
-
-build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/ShoppingCart.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/Source$ Files/ShoppingCart.cpp || cmake_object_order_depends_target_ShoppingCartProgram
-  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files\ShoppingCart.cpp.obj.d"
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
-  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files"
-
-build 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Utility.cpp.obj: CXX_COMPILER__ShoppingCartProgram_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/Source$ Files/Utility.cpp || cmake_object_order_depends_target_ShoppingCartProgram
-  DEP_FILE = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files\Utility.cpp.obj.d"
-  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
-  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
-  OBJECT_FILE_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir\Source_Files"
+  OBJECT_DIR = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir"
+  OBJECT_FILE_DIR = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir\Source_Files"
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ShoppingCartProgram
+# Link build statements for EXECUTABLE target ObjectOrientedProgramming
 
 
 #############################################
-# Link the executable 4 Shopping Cart Program\ShoppingCartProgram.exe
+# Link the executable 7 Object Oriented Programming\ObjectOrientedProgramming.exe
 
-build 4$ Shopping$ Cart$ Program/ShoppingCartProgram.exe: CXX_EXECUTABLE_LINKER__ShoppingCartProgram_Debug 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/main.cpp.obj 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Item.cpp.obj 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/ShoppingCart.cpp.obj 4$ Shopping$ Cart$ Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Utility.cpp.obj
+build 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe: CXX_EXECUTABLE_LINKER__ObjectOrientedProgramming_Debug 7$ Object$ Oriented$ Programming/CMakeFiles/ObjectOrientedProgramming.dir/main.cpp.obj 7$ Object$ Oriented$ Programming/CMakeFiles/ObjectOrientedProgramming.dir/Source_Files/Site.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
+  OBJECT_DIR = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir"
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = "4 Shopping Cart Program\ShoppingCartProgram.exe"
-  TARGET_IMPLIB = "4 Shopping Cart Program\libShoppingCartProgram.dll.a"
-  TARGET_PDB = ShoppingCartProgram.exe.dbg
+  TARGET_FILE = "7 Object Oriented Programming\ObjectOrientedProgramming.exe"
+  TARGET_IMPLIB = "7 Object Oriented Programming\libObjectOrientedProgramming.dll.a"
+  TARGET_PDB = ObjectOrientedProgramming.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build 4$ Shopping$ Cart$ Program/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\4 Shopping Cart Program" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build 7$ Object$ Oriented$ Programming/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\7 Object Oriented Programming" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 4$ Shopping$ Cart$ Program/edit_cache: phony 4$ Shopping$ Cart$ Program/CMakeFiles/edit_cache.util
+build 7$ Object$ Oriented$ Programming/edit_cache: phony 7$ Object$ Oriented$ Programming/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 4$ Shopping$ Cart$ Program/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\4 Shopping Cart Program" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects" -B"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug""
+build 7$ Object$ Oriented$ Programming/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\7 Object Oriented Programming" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects" -B"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 4$ Shopping$ Cart$ Program/rebuild_cache: phony 4$ Shopping$ Cart$ Program/CMakeFiles/rebuild_cache.util
+build 7$ Object$ Oriented$ Programming/rebuild_cache: phony 7$ Object$ Oriented$ Programming/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -817,6 +884,10 @@ build Functions: phony 3$ Functions/Functions.exe
 
 build Functions.exe: phony 3$ Functions/Functions.exe
 
+build ObjectOrientedProgramming: phony 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe
+
+build ObjectOrientedProgramming.exe: phony 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe
+
 build ReplicatingTheVectorClass: phony 7$ Replicating$ the$ Vector$ Class/ReplicatingTheVectorClass.exe
 
 build ReplicatingTheVectorClass.exe: phony 7$ Replicating$ the$ Vector$ Class/ReplicatingTheVectorClass.exe
@@ -845,7 +916,7 @@ build SortAlgorithmSpeed.exe: phony 8$ Sort$ Algorithm$ Speed/SortAlgorithmSpeed
 #############################################
 # Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug
 
-build all: phony 1$ Data$ Types/all 3$ Functions/all 7$ Replicating$ the$ Vector$ Class/all 7$ School$ Registration$ Program/all 4$ Shopping$ Cart$ Program/all 8$ Encryption/all 8$ Search$ Algorithms/all 8$ Sort$ Algorithms/all 8$ Search$ Algorithm$ Speed/all 8$ Sort$ Algorithm$ Speed/all
+build all: phony 1$ Data$ Types/all 3$ Functions/all 4$ Shopping$ Cart$ Program/all 7$ Replicating$ the$ Vector$ Class/all 7$ School$ Registration$ Program/all 7$ Object$ Oriented$ Programming/all 8$ Encryption/all 8$ Search$ Algorithms/all 8$ Sort$ Algorithms/all 8$ Search$ Algorithm$ Speed/all 8$ Sort$ Algorithm$ Speed/all
 
 # =============================================================================
 
@@ -867,6 +938,13 @@ build 3$ Functions/all: phony 3$ Functions/Functions.exe
 # Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/4 Shopping Cart Program
 
 build 4$ Shopping$ Cart$ Program/all: phony 4$ Shopping$ Cart$ Program/ShoppingCartProgram.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming
+
+build 7$ Object$ Oriented$ Programming/all: phony 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe
 
 # =============================================================================
 
@@ -924,14 +1002,14 @@ build 8$ Sort$ Algorithms/all: phony 8$ Sort$ Algorithms/AlgorithmsSort.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

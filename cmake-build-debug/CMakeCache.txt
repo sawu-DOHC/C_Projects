@@ -297,6 +297,24 @@ Functions_IS_TOP_LEVEL:STATIC=OFF
 Functions_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/3 Functions
 
 //Value Computed by CMake
+ObjectOrientedProgramming_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming
+
+//Value Computed by CMake
+ObjectOrientedProgramming_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ObjectOrientedProgramming_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/7 Object Oriented Programming
+
+//Value Computed by CMake
+Object_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming
+
+//Value Computed by CMake
+Object_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Object_SOURCE_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/7 Object Oriented Programming
+
+//Value Computed by CMake
 ReplicatingTheVectorClass_BINARY_DIR:STATIC=C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Replicating the Vector Class
 
 //Value Computed by CMake
@@ -444,7 +462,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

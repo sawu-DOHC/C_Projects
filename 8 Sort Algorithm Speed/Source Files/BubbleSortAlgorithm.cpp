@@ -18,7 +18,7 @@ void BubbleSortAlgorithm::sort(const std::vector<int>& data) {
     auto start = std::chrono::high_resolution_clock::now();
 
     for (int step = 0; step < size - 1; ++step) {
-        bool swapped = false;  // Track if any swaps were made during this step
+        bool swapped = false;
         for (int i = 0; i < size - step - 1; ++i) {
             if (array[i] > array[i + 1]) {
                 int temp = array[i];

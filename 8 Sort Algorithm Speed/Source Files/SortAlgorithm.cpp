@@ -1,11 +1,14 @@
 #include "../Header Files/SortAlgorithm.h"
 
 // Constructor
-SortAlgorithm::SortAlgorithm(const std::string& name)
-        : algorithmName(name), iterations(0), swaps(0), executionTime(0), arrayAccesses(0) {}
+SortAlgorithm::SortAlgorithm(const std::string& name) : algorithmName(name), iterations(0), swaps(0), executionTime(0), arrayAccesses(0) {
+
+}
 
 // Virtual destructor
-SortAlgorithm::~SortAlgorithm() {}
+SortAlgorithm::~SortAlgorithm() {
+
+}
 
 // Method to reset statistics
 void SortAlgorithm::resetStats() {

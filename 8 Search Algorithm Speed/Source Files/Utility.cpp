@@ -33,7 +33,7 @@ int* loadData(const std::string& filePath, int& arraySize) {
     // Allocate the array dynamically on the heap
     arraySize = data.size();
     int* array = new int[arraySize];
-    for (size_t i = 0; i < arraySize; ++i) {
+    for ( size_t i = 0; i < arraySize; ++i ) {
         array[i] = data[i];
     }
 

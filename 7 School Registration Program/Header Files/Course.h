@@ -22,7 +22,7 @@ private:
     string courseID;
     int creditHours;
     size_t capacity;
-    set <Student*> studentPtrSet; // using pointers to avoid duplicaitng objects but i end up duplicating objects anyway before printing
+    set <Student*> studentPtrSet; // using pointers to avoid duplicaitng objects but I end up duplicating objects anyway before printing
 
 public:
     // Constructors

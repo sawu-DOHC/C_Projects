@@ -49,6 +49,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/4 Shopping Cart Program/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Replicating the Vector Class/cmake_install.cmake")
 endif()
 
@@ -59,7 +64,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/4 Shopping Cart Program/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

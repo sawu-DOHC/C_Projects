@@ -4,6 +4,7 @@
 
 
 class SearchAlgorithms {
+
     public:
     int linearSearch( int ( &array)[10], int value );
 

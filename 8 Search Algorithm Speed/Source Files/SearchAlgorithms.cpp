@@ -14,7 +14,7 @@ int* SearchAlgorithms::linearSearch(int* array, int size, int value) {
             return results;
         }
     }
-    results[0] = -1; // Not found
+    results[0] = -1;
     return results;
 }
 
@@ -35,13 +35,15 @@ int* SearchAlgorithms::binarySearch(int* array, int size, int value) {
         if (value == array[middle]) {
             results[0] = middle;
             return results;
-        } else if (value > array[middle]) {
+        }
+        else if (value > array[middle]) {
             indexFirst = middle + 1;
-        } else {
+        }
+        else {
             indexLast = middle - 1;
         }
     }
 
-    results[0] = -1; // Not found
+    results[0] = -1;
     return results;
 }

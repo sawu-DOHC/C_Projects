@@ -2,24 +2,24 @@
 50	1310	7635898674513600	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/main.cpp.obj	cc7ffc0b33326c0e
 39	109	7635898674402280	8 Sort Algorithms/CMakeFiles/AlgorithmsSort.dir/Source_Files/SortAlgorithms.cpp.obj	aead33ce2cdfe1f3
 57	1171	7635898674583607	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/Utility.cpp.obj	23b4f71312407b59
+14	288	7674233314564950	build.ninja	efe1a543ecd2095f
 481	1395	7635898678820148	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/InsertionSortAlgorithm.cpp.obj	28ff17d57fd2f86b
 53	687	7635898674543609	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/SortAlgorithm.cpp.obj	a6768052421ed033
-1	240	7638943725858190	build.ninja	efe1a543ecd2095f
 1395	1492	7635898687969898	8 Sort Algorithm Speed/SortAlgorithmSpeed.exe	681bf85a79471d69
-109	1201	7635898675103067	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/QuickSortAlgorithm.cpp.obj	b3b9f9f0d93ddf5d
 24	792	7635898674261082	4 Shopping Cart Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/ShoppingCart.cpp.obj	9d14e999024cddc
+109	1201	7635898675103067	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/QuickSortAlgorithm.cpp.obj	b3b9f9f0d93ddf5d
 100	1186	7635898675012175	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/BubbleSortAlgorithm.cpp.obj	3716c63f137ba2e3
-60	1192	7635898674613602	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/SelectionSortAlgorithm.cpp.obj	f3086625afac76de
 860	937	7635898682611408	1 Data Types/DataTypes.exe	53f42eecc033cb38
+60	1192	7635898674613602	8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir/Source_Files/SelectionSortAlgorithm.cpp.obj	f3086625afac76de
 36	506	7635898674372281	8 Sort Algorithms/CMakeFiles/AlgorithmsSort.dir/main.cpp.obj	87531d2b5cad796d
-522	643	7635898679231295	8 Sort Algorithms/AlgorithmsSort.exe	9d871e30ad3a1b3d
 637	877	7638880782734355	8 Encryption/Encryption.exe	5566d29344d8083b
+522	643	7635898679231295	8 Sort Algorithms/AlgorithmsSort.exe	9d871e30ad3a1b3d
 33	100	7635898674341680	8 Search Algorithms/CMakeFiles/AlgorithmsSearch.dir/Source_Files/SearchAlgorithms.cpp.obj	c42d08f69e6928ec
+8	261	7638999446991565	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
 3	481	7635898674048086	7 Replicating the Vector Class/CMakeFiles/ReplicatingTheVectorClass.dir/main.cpp.obj	6f2108aa4ef54314
-2	95	7638936977849478	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
 7	489	7635898674088443	7 Replicating the Vector Class/CMakeFiles/ReplicatingTheVectorClass.dir/Source_Files/Dynamic_Int_Array_Class.cpp.obj	f5ed34090bc9f2dc
-30	499	7635898674311678	8 Search Algorithms/CMakeFiles/AlgorithmsSearch.dir/main.cpp.obj	4b656adda18a0409
 499	640	7635898679011299	7 Replicating the Vector Class/ReplicatingTheVectorClass.exe	178e65159f47f2dd
+30	499	7635898674311678	8 Search Algorithms/CMakeFiles/AlgorithmsSearch.dir/main.cpp.obj	4b656adda18a0409
 47	521	7635898674483605	8 Search Algorithm Speed/CMakeFiles/SearchAlgorithmSpeed.dir/Source_Files/SearchAlgorithms.cpp.obj	249585abdb029cfb
 22	595	7635898674230557	4 Shopping Cart Program/CMakeFiles/ShoppingCartProgram.dir/Source_Files/Item.cpp.obj	5f6dd63bdd0c3e17
 506	621	7635898679081287	8 Search Algorithms/AlgorithmsSearch.exe	d271fa2808c09960
@@ -30,21 +30,12 @@
 9	773	7635898674108889	7 School Registration Program/CMakeFiles/SchoolRegistrationProgram.dir/main.cpp.obj	58edb97cc1c29b39
 13	797	7635898674138899	7 School Registration Program/CMakeFiles/SchoolRegistrationProgram.dir/Source_Files/Student.cpp.obj	5c15eb4215324bc2
 489	859	7635898678911297	1 Data Types/CMakeFiles/DataTypes.dir/main.cpp.obj	eab6afe8c73f1f0c
-792	881	7635898681930704	4 Shopping Cart Program/ShoppingCartProgram.exe	7b719677319cd890
 944	1083	7635898683449142	7 School Registration Program/SchoolRegistrationProgram.exe	796b47e7567e30a6
+792	881	7635898681930704	4 Shopping Cart Program/ShoppingCartProgram.exe	7b719677319cd890
 15	883	7635898674160078	7 School Registration Program/CMakeFiles/SchoolRegistrationProgram.dir/Source_Files/Utils.cpp.obj	91337f41d36cba09
 17	944	7635898674190068	7 School Registration Program/CMakeFiles/SchoolRegistrationProgram.dir/Source_Files/School.cpp.obj	a956bbe342188920
 42	1145	7635898674432948	8 Search Algorithm Speed/CMakeFiles/SearchAlgorithmSpeed.dir/main.cpp.obj	a62e82ac3744ff6d
 1145	1213	7635898685470603	8 Search Algorithm Speed/SearchAlgorithmSpeed.exe	b11582f772d391ed
 24	636	7638880776615056	8 Encryption/CMakeFiles/Encryption.dir/main.cpp.obj	3bd3eccad7570b95
-95	252	7638936978779978	3 Functions/Functions.exe	ac83bcbfd7da2694
-5	57	7638998809514894	3 Functions/CMakeFiles/Functions.dir/Source_Files/isPrime.cpp.obj	2fa1ef3d39effcc2
-2	299	7638998809484898	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
-9	277	7638999240092090	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
-277	337	7638999242777642	3 Functions/Functions.exe	31305676e7558313
-9	268	7638999308130896	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
-268	321	7638999310723192	3 Functions/Functions.exe	31305676e7558313
-9	266	7638999352424483	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
-267	322	7638999355006488	3 Functions/Functions.exe	31305676e7558313
-8	261	7638999446991565	3 Functions/CMakeFiles/Functions.dir/main.cpp.obj	8c3664048ebfdbc5
-261	317	7638999449539190	3 Functions/Functions.exe	31305676e7558313
+522	756	7674207193896123	3 Functions/Functions.exe	31305676e7558313
+23	522	7674207188900935	3 Functions/CMakeFiles/Functions.dir/Source_Files/isPrime.cpp.obj	2fa1ef3d39effcc2

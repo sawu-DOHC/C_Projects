@@ -5,6 +5,7 @@
 #include <vector>
 
 class BubbleSortAlgorithm : public SortAlgorithm {
+
 public:
     // Constructor
     BubbleSortAlgorithm();
