@@ -136,7 +136,7 @@ rule CXX_EXECUTABLE_LINKER__ObjectOrientedProgramming_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Encryption_unscanned_Debug
+rule CXX_COMPILER__PrimeNumberDetection_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}"D:\IntelliJ\CLion 2023.2.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -146,7 +146,7 @@ rule CXX_COMPILER__Encryption_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Encryption_Debug
+rule CXX_EXECUTABLE_LINKER__PrimeNumberDetection_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "D:\IntelliJ\CLion 2023.2.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -223,6 +223,25 @@ rule CXX_COMPILER__SortAlgorithmSpeed_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__SortAlgorithmSpeed_Debug
+  command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "D:\IntelliJ\CLion 2023.2.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Networking_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ${LAUNCHER}${CODE_CHECK}"D:\IntelliJ\CLion 2023.2.1\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Networking_Debug
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && "D:\IntelliJ\CLion 2023.2.1\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT

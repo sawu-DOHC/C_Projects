@@ -1,14 +1,19 @@
-#import <iostream>
+#include "Header Files/Site.h"
+#include <vector>
+#include <string>
 
 
 int main() {
-    std::string root = "C:\\Users\\Sam\\OneDrive\\Desktop Cloud\\HTML_Projects\\expservicecenter.com";
 
-    std::cout << "🔧 Building site scaffold at: " << root << "\n";
+    std::vector< std::string > sections = {
 
-    system(("mkdir \"" + root + "\"").c_str());
+            "Home",
+            "About",
+            "Gallery",
+            "Contact"
+    };
 
+    Site mySite("newSite.com", sections);
 
-    std::cout << "\n✅ Site structure complete.\n";
     return 0;
 }

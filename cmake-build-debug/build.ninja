@@ -96,7 +96,7 @@ build 1$ Data$ Types/DataTypes.exe: CXX_EXECUTABLE_LINKER__DataTypes_Debug 1$ Da
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "1 Data Types\CMakeFiles\DataTypes.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\1 Data Types" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/1 Data Types/DataTypes.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "1 Data Types\DataTypes.exe"
   TARGET_IMPLIB = "1 Data Types\libDataTypes.dll.a"
@@ -165,7 +165,7 @@ build 3$ Functions/Functions.exe: CXX_EXECUTABLE_LINKER__Functions_Debug 3$ Func
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "3 Functions\CMakeFiles\Functions.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\3 Functions" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/3 Functions/Functions.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "3 Functions\Functions.exe"
   TARGET_IMPLIB = "3 Functions\libFunctions.dll.a"
@@ -244,7 +244,7 @@ build 4$ Shopping$ Cart$ Program/ShoppingCartProgram.exe: CXX_EXECUTABLE_LINKER_
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "4 Shopping Cart Program\CMakeFiles\ShoppingCartProgram.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\4 Shopping Cart Program" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/4 Shopping Cart Program/ShoppingCartProgram.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "4 Shopping Cart Program\ShoppingCartProgram.exe"
   TARGET_IMPLIB = "4 Shopping Cart Program\libShoppingCartProgram.dll.a"
@@ -311,7 +311,7 @@ build 7$ Replicating$ the$ Vector$ Class/ReplicatingTheVectorClass.exe: CXX_EXEC
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "7 Replicating the Vector Class\CMakeFiles\ReplicatingTheVectorClass.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\7 Replicating the Vector Class" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Replicating the Vector Class/ReplicatingTheVectorClass.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "7 Replicating the Vector Class\ReplicatingTheVectorClass.exe"
   TARGET_IMPLIB = "7 Replicating the Vector Class\libReplicatingTheVectorClass.dll.a"
@@ -396,7 +396,7 @@ build 7$ School$ Registration$ Program/SchoolRegistrationProgram.exe: CXX_EXECUT
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "7 School Registration Program\CMakeFiles\SchoolRegistrationProgram.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\7 School Registration Program" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 School Registration Program/SchoolRegistrationProgram.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "7 School Registration Program\SchoolRegistrationProgram.exe"
   TARGET_IMPLIB = "7 School Registration Program\libSchoolRegistrationProgram.dll.a"
@@ -463,7 +463,7 @@ build 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe: CXX_EXECUT
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "7 Object Oriented Programming\CMakeFiles\ObjectOrientedProgramming.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\7 Object Oriented Programming" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming/ObjectOrientedProgramming.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "7 Object Oriented Programming\ObjectOrientedProgramming.exe"
   TARGET_IMPLIB = "7 Object Oriented Programming\libObjectOrientedProgramming.dll.a"
@@ -498,60 +498,60 @@ build 7$ Object$ Oriented$ Programming/rebuild_cache: phony 7$ Object$ Oriented$
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Encryption
+# Object build statements for EXECUTABLE target PrimeNumberDetection
 
 
 #############################################
-# Order-only phony target for Encryption
+# Order-only phony target for PrimeNumberDetection
 
-build cmake_object_order_depends_target_Encryption: phony || 8$ Encryption/CMakeFiles/Encryption.dir
+build cmake_object_order_depends_target_PrimeNumberDetection: phony || 8$ Prime$ Number$ Detection/CMakeFiles/PrimeNumberDetection.dir
 
-build 8$ Encryption/CMakeFiles/Encryption.dir/main.cpp.obj: CXX_COMPILER__Encryption_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/main.cpp || cmake_object_order_depends_target_Encryption
-  DEP_FILE = "8 Encryption\CMakeFiles\Encryption.dir\main.cpp.obj.d"
+build 8$ Prime$ Number$ Detection/CMakeFiles/PrimeNumberDetection.dir/main.cpp.obj: CXX_COMPILER__PrimeNumberDetection_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Prime$ Number$ Detection/main.cpp || cmake_object_order_depends_target_PrimeNumberDetection
+  DEP_FILE = "8 Prime Number Detection\CMakeFiles\PrimeNumberDetection.dir\main.cpp.obj.d"
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = "8 Encryption\CMakeFiles\Encryption.dir"
-  OBJECT_FILE_DIR = "8 Encryption\CMakeFiles\Encryption.dir"
+  OBJECT_DIR = "8 Prime Number Detection\CMakeFiles\PrimeNumberDetection.dir"
+  OBJECT_FILE_DIR = "8 Prime Number Detection\CMakeFiles\PrimeNumberDetection.dir"
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Encryption
+# Link build statements for EXECUTABLE target PrimeNumberDetection
 
 
 #############################################
-# Link the executable 8 Encryption\Encryption.exe
+# Link the executable 8 Prime Number Detection\PrimeNumberDetection.exe
 
-build 8$ Encryption/Encryption.exe: CXX_EXECUTABLE_LINKER__Encryption_Debug 8$ Encryption/CMakeFiles/Encryption.dir/main.cpp.obj
+build 8$ Prime$ Number$ Detection/PrimeNumberDetection.exe: CXX_EXECUTABLE_LINKER__PrimeNumberDetection_Debug 8$ Prime$ Number$ Detection/CMakeFiles/PrimeNumberDetection.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = "8 Encryption\CMakeFiles\Encryption.dir"
-  POST_BUILD = cd .
+  OBJECT_DIR = "8 Prime Number Detection\CMakeFiles\PrimeNumberDetection.dir"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Prime Number Detection" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Prime Number Detection/PrimeNumberDetection.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
-  TARGET_FILE = "8 Encryption\Encryption.exe"
-  TARGET_IMPLIB = "8 Encryption\libEncryption.dll.a"
-  TARGET_PDB = Encryption.exe.dbg
+  TARGET_FILE = "8 Prime Number Detection\PrimeNumberDetection.exe"
+  TARGET_IMPLIB = "8 Prime Number Detection\libPrimeNumberDetection.dll.a"
+  TARGET_PDB = PrimeNumberDetection.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build 8$ Encryption/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Encryption" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build 8$ Prime$ Number$ Detection/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Prime Number Detection" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 8$ Encryption/edit_cache: phony 8$ Encryption/CMakeFiles/edit_cache.util
+build 8$ Prime$ Number$ Detection/edit_cache: phony 8$ Prime$ Number$ Detection/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 8$ Encryption/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Encryption" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects" -B"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug""
+build 8$ Prime$ Number$ Detection/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Prime Number Detection" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects" -B"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 8$ Encryption/rebuild_cache: phony 8$ Encryption/CMakeFiles/rebuild_cache.util
+build 8$ Prime$ Number$ Detection/rebuild_cache: phony 8$ Prime$ Number$ Detection/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -593,7 +593,7 @@ build 8$ Search$ Algorithms/AlgorithmsSearch.exe: CXX_EXECUTABLE_LINKER__Algorit
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "8 Search Algorithms\CMakeFiles\AlgorithmsSearch.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Search Algorithms" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithms/AlgorithmsSearch.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "8 Search Algorithms\AlgorithmsSearch.exe"
   TARGET_IMPLIB = "8 Search Algorithms\libAlgorithmsSearch.dll.a"
@@ -662,7 +662,7 @@ build 8$ Sort$ Algorithms/AlgorithmsSort.exe: CXX_EXECUTABLE_LINKER__AlgorithmsS
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "8 Sort Algorithms\CMakeFiles\AlgorithmsSort.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Sort Algorithms" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithms/AlgorithmsSort.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "8 Sort Algorithms\AlgorithmsSort.exe"
   TARGET_IMPLIB = "8 Sort Algorithms\libAlgorithmsSort.dll.a"
@@ -735,7 +735,7 @@ build 8$ Search$ Algorithm$ Speed/SearchAlgorithmSpeed.exe: CXX_EXECUTABLE_LINKE
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "8 Search Algorithm Speed\CMakeFiles\SearchAlgorithmSpeed.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Search Algorithm Speed" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithm Speed/SearchAlgorithmSpeed.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "8 Search Algorithm Speed\SearchAlgorithmSpeed.exe"
   TARGET_IMPLIB = "8 Search Algorithm Speed\libSearchAlgorithmSpeed.dll.a"
@@ -832,7 +832,7 @@ build 8$ Sort$ Algorithm$ Speed/SortAlgorithmSpeed.exe: CXX_EXECUTABLE_LINKER__S
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = "8 Sort Algorithm Speed\CMakeFiles\SortAlgorithmSpeed.dir"
-  POST_BUILD = cd .
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\8 Sort Algorithm Speed" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithm Speed/SortAlgorithmSpeed.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
   PRE_LINK = cd .
   TARGET_FILE = "8 Sort Algorithm Speed\SortAlgorithmSpeed.exe"
   TARGET_IMPLIB = "8 Sort Algorithm Speed\libSortAlgorithmSpeed.dll.a"
@@ -862,6 +862,75 @@ build 8$ Sort$ Algorithm$ Speed/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 8$ Sort$ Algorithm$ Speed/rebuild_cache: phony 8$ Sort$ Algorithm$ Speed/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Networking
+
+
+#############################################
+# Order-only phony target for Networking
+
+build cmake_object_order_depends_target_Networking: phony || 11$ Networking/CMakeFiles/Networking.dir
+
+build 11$ Networking/CMakeFiles/Networking.dir/main.cpp.obj: CXX_COMPILER__Networking_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/11$ Networking/main.cpp || cmake_object_order_depends_target_Networking
+  DEP_FILE = "11 Networking\CMakeFiles\Networking.dir\main.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/11 Networking/Header Files" -isystem "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/include"
+  OBJECT_DIR = "11 Networking\CMakeFiles\Networking.dir"
+  OBJECT_FILE_DIR = "11 Networking\CMakeFiles\Networking.dir"
+
+build 11$ Networking/CMakeFiles/Networking.dir/Source_Files/BruteForce.cpp.obj: CXX_COMPILER__Networking_unscanned_Debug C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/11$ Networking/Source$ Files/BruteForce.cpp || cmake_object_order_depends_target_Networking
+  DEP_FILE = "11 Networking\CMakeFiles\Networking.dir\Source_Files\BruteForce.cpp.obj.d"
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/11 Networking/Header Files" -isystem "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/include"
+  OBJECT_DIR = "11 Networking\CMakeFiles\Networking.dir"
+  OBJECT_FILE_DIR = "11 Networking\CMakeFiles\Networking.dir\Source_Files"
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Networking
+
+
+#############################################
+# Link the executable 11 Networking\Networking.exe
+
+build 11$ Networking/Networking.exe: CXX_EXECUTABLE_LINKER__Networking_Debug 11$ Networking/CMakeFiles/Networking.dir/main.cpp.obj 11$ Networking/CMakeFiles/Networking.dir/Source_Files/BruteForce.cpp.obj | C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/debug/lib/libcurl-d.lib
+  FLAGS = -g
+  LINK_LIBRARIES = "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/lib/libcurl-d.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = "11 Networking\CMakeFiles\Networking.dir"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\11 Networking" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/scripts/buildsystems/msbuild/applocal.ps1" -targetBinary "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/11 Networking/Networking.exe" -installedDir "C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/vcpkg/installed/x64-windows/debug/bin" -OutVariable out"
+  PRE_LINK = cd .
+  TARGET_FILE = "11 Networking\Networking.exe"
+  TARGET_IMPLIB = "11 Networking\libNetworking.dll.a"
+  TARGET_PDB = Networking.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 11$ Networking/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\11 Networking" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 11$ Networking/edit_cache: phony 11$ Networking/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 11$ Networking/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug\11 Networking" && "D:\IntelliJ\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects" -B"C:\Users\Sam\OneDrive\Desktop Cloud\C   Projects\cmake-build-debug""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 11$ Networking/rebuild_cache: phony 11$ Networking/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build AlgorithmsSearch: phony 8$ Search$ Algorithms/AlgorithmsSearch.exe
@@ -876,17 +945,21 @@ build DataTypes: phony 1$ Data$ Types/DataTypes.exe
 
 build DataTypes.exe: phony 1$ Data$ Types/DataTypes.exe
 
-build Encryption: phony 8$ Encryption/Encryption.exe
-
-build Encryption.exe: phony 8$ Encryption/Encryption.exe
-
 build Functions: phony 3$ Functions/Functions.exe
 
 build Functions.exe: phony 3$ Functions/Functions.exe
 
+build Networking: phony 11$ Networking/Networking.exe
+
+build Networking.exe: phony 11$ Networking/Networking.exe
+
 build ObjectOrientedProgramming: phony 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe
 
 build ObjectOrientedProgramming.exe: phony 7$ Object$ Oriented$ Programming/ObjectOrientedProgramming.exe
+
+build PrimeNumberDetection: phony 8$ Prime$ Number$ Detection/PrimeNumberDetection.exe
+
+build PrimeNumberDetection.exe: phony 8$ Prime$ Number$ Detection/PrimeNumberDetection.exe
 
 build ReplicatingTheVectorClass: phony 7$ Replicating$ the$ Vector$ Class/ReplicatingTheVectorClass.exe
 
@@ -916,7 +989,7 @@ build SortAlgorithmSpeed.exe: phony 8$ Sort$ Algorithm$ Speed/SortAlgorithmSpeed
 #############################################
 # Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug
 
-build all: phony 1$ Data$ Types/all 3$ Functions/all 4$ Shopping$ Cart$ Program/all 7$ Replicating$ the$ Vector$ Class/all 7$ School$ Registration$ Program/all 7$ Object$ Oriented$ Programming/all 8$ Encryption/all 8$ Search$ Algorithms/all 8$ Sort$ Algorithms/all 8$ Search$ Algorithm$ Speed/all 8$ Sort$ Algorithm$ Speed/all
+build all: phony 1$ Data$ Types/all 3$ Functions/all 4$ Shopping$ Cart$ Program/all 7$ Replicating$ the$ Vector$ Class/all 7$ School$ Registration$ Program/all 7$ Object$ Oriented$ Programming/all 8$ Prime$ Number$ Detection/all 8$ Search$ Algorithms/all 8$ Sort$ Algorithms/all 8$ Search$ Algorithm$ Speed/all 8$ Sort$ Algorithm$ Speed/all 11$ Networking/all
 
 # =============================================================================
 
@@ -924,6 +997,13 @@ build all: phony 1$ Data$ Types/all 3$ Functions/all 4$ Shopping$ Cart$ Program/
 # Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/1 Data Types
 
 build 1$ Data$ Types/all: phony 1$ Data$ Types/DataTypes.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/11 Networking
+
+build 11$ Networking/all: phony 11$ Networking/Networking.exe
 
 # =============================================================================
 
@@ -963,9 +1043,9 @@ build 7$ School$ Registration$ Program/all: phony 7$ School$ Registration$ Progr
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Encryption
+# Folder: C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Prime Number Detection
 
-build 8$ Encryption/all: phony 8$ Encryption/Encryption.exe
+build 8$ Prime$ Number$ Detection/all: phony 8$ Prime$ Number$ Detection/PrimeNumberDetection.exe
 
 # =============================================================================
 
@@ -1002,14 +1082,14 @@ build 8$ Sort$ Algorithms/all: phony 8$ Sort$ Algorithms/AlgorithmsSort.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/11$ Networking/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Prime$ Number$ Detection/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/scripts/buildsystems/vcpkg.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindZLIB.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Encryption/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/1$ Data$ Types/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/11$ Networking/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/3$ Functions/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/4$ Shopping$ Cart$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Object$ Oriented$ Programming/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ Replicating$ the$ Vector$ Class/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/7$ School$ Registration$ Program/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Prime$ Number$ Detection/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Search$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithm$ Speed/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/8$ Sort$ Algorithms/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/CMakeLists.txt C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLConfig.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLConfigVersion.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLTargets-debug.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLTargets-release.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/CURLTargets.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/curl/vcpkg-cmake-wrapper.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/installed/x64-windows/share/zlib/vcpkg-cmake-wrapper.cmake C$:/Users/Sam/OneDrive/Desktop$ Cloud/C$ $ $ Projects/vcpkg/scripts/buildsystems/vcpkg.cmake CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/FindZLIB.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/IntelliJ/CLion$ 2023.2.1/bin/cmake/win/x64/share/cmake-3.28/Modules/SelectLibraryConfigurations.cmake: phony
 
 
 #############################################

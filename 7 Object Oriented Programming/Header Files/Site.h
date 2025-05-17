@@ -4,26 +4,61 @@
 #include <string>
 #include <vector>
 
+using namespace std;
+
 class Site {
 
 private:
-    std::string rootBase;
-    std::string name;
-    std::string fullPath;
-    std::vector<std::string> sections;
+    string name;
+    vector<string> sections;
+    string rootBase;
+    string fullPath;
+    string rawHTML;
 
 public:
     // Constructor
-    Site(const std::string& siteName, const std::vector<std::string>& sectionList);
+    Site(const string& siteName, const vector<string>& sectionList) {
 
-    // Build steps
+        name = siteName;
+        sections = sectionList;
+        rootBase = "C:\\Users\\Sam\\OneDrive\\Desktop Cloud\\HTML_Projects";
+        fullPath = rootBase + "\\" + name;
+
+        buildRawHTML();
+        insertNav();
+
+        insertSections();
+        createDirectories();
+        createIndex();
+        createCSS();
+        createJS();
+    }
+
+    // HTML generation
+    void buildRawHTML();
+    void insertNav();
+    void insertSections();
+    void createIndex();
+
+    // Directory creation
     void createDirectories();
+
+    // CSS generation
     void createCSS();
+    void createBodyCSS();
+    void createHeaderCSS();
+    void createNavCSS();
+    void createMainCSS();
+    void createFooterCSS();
+
+    // JS generation
     void createJS();
-    void createHTML();
+    void createMainJS();
+    void createUtilityJS();
 
     // Utility
-    void createFile(const std::string& path);
+    void createFile(const string& path);
+    void createFileWithContent(const string& path, const string& content);
 };
 
 #endif //CPROJECTS_SITE_H

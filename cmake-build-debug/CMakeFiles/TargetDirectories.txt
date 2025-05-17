@@ -18,9 +18,9 @@ C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 School Regi
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming/CMakeFiles/ObjectOrientedProgramming.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming/CMakeFiles/edit_cache.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/7 Object Oriented Programming/CMakeFiles/rebuild_cache.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Encryption/CMakeFiles/Encryption.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Encryption/CMakeFiles/edit_cache.dir
-C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Encryption/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Prime Number Detection/CMakeFiles/PrimeNumberDetection.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Prime Number Detection/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Prime Number Detection/CMakeFiles/rebuild_cache.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithms/CMakeFiles/AlgorithmsSearch.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithms/CMakeFiles/edit_cache.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algorithms/CMakeFiles/rebuild_cache.dir
@@ -33,3 +33,6 @@ C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Search Algo
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithm Speed/CMakeFiles/SortAlgorithmSpeed.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithm Speed/CMakeFiles/edit_cache.dir
 C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithm Speed/CMakeFiles/rebuild_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/11 Networking/CMakeFiles/Networking.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/11 Networking/CMakeFiles/edit_cache.dir
+C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/11 Networking/CMakeFiles/rebuild_cache.dir

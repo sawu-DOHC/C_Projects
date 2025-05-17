@@ -69,7 +69,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Encryption/cmake_install.cmake")
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Prime Number Detection/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -90,6 +90,11 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
   include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/8 Sort Algorithm Speed/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("C:/Users/Sam/OneDrive/Desktop Cloud/C   Projects/cmake-build-debug/11 Networking/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
